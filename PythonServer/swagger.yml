@@ -1,0 +1,30 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file that goes with our server code
+  version: "1.0.0"
+  title: Swagger REST Article
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+
+basePath: "/api"
+
+# Paths supported by the server application
+paths:
+  /importer: 
+    post:
+      operationId: server.startImport
+      description: |
+        Start import process.
+      consumes:
+        - multipart/form-data
+      parameters:
+        - name: assets
+          in: formData
+          type: file
+      responses:
+        200:
+          description: "Successful read people list operation"
+          schema:
+            type: "object"

@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.8.0)
+  - ALCameraViewController (3.0.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - ALCameraViewController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ALCameraViewController
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  ALCameraViewController: 6398a9282057f709b87a1ecc52a83b48028ade64
+
+PODFILE CHECKSUM: 43a75cb410cacb4e08985f77de608529c3c45c82
+
+COCOAPODS: 1.5.3
