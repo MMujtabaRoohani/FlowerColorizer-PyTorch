@@ -33,8 +33,7 @@ pod install
 
 Now open the [iOS Project](iOSDemo/MLProject.xcworkspace) in XCode and replace your machine's IP in the *requestURL* variable of the [ViewController.swift](iOSDemo/ViewController.swift) class. Then install and run the application on your iOS device.
 
-**Note:** For running the notebook file, download the ![file](Notebooks/
-ImageColorizer.ipynb) and open it in Google Co-Laboratory for features such as mounting gdrive to work.
+**Note:** For running the notebook file, download the [file](Notebooks/ImageColorizer.ipynb) and open it in Google Co-Laboratory for features such as mounting gdrive to work.
 
 ## Model Results
 
